@@ -1,0 +1,19 @@
+// functions  --------------------------------------------------------------------------------
+
+// Variables  ---------------------------------------------------------------------------------
+$v-forum-background: url(#{$forum_background}) !default;
+
+// backgrounds --------------------------------------------------------------------------------
+#background {
+	background: $v-forum-background;
+	background-position: center center;
+	background-size: cover;
+	z-index: -1;
+	opacity: 1;
+	min-width: 100vw;
+	width: auto;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+}

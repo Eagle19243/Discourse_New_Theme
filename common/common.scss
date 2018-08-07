@@ -11,7 +11,7 @@ body {
 	background: white;
 }
 
-#background,
+#forum-background,
 body:before {
 	height: 100vh;
 	position: fixed;
@@ -29,7 +29,7 @@ body:before {
 	background: white;
 }
 
-#background {
+#forum-background {
 	background: $v-forum-background;
 	background-position: center center;
 	background-size: cover;

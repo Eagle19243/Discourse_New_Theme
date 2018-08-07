@@ -3,12 +3,18 @@
 // Variables  ---------------------------------------------------------------------------------
 $v-forum-background: url(#{$forum_background}) !default;
 
+// backgrounds --------------------------------------------------------------------------------
+
+#main-outlet {
+    background: white;
+}
+
 // body background ----------------------------------------------------------------------------
 
 body {
 	position: relative;
 	background-attachment: scroll;
-	background: white;
+	background: transparent;
 }
 
 #forum-background,

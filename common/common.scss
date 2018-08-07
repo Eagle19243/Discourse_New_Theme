@@ -49,6 +49,7 @@ body:before {
 }
 
 // list controls ------------------------------------------------------------------------------
+
 .list-controls {
     section.navigation-container {
 
@@ -78,4 +79,16 @@ body:before {
             color: white;
         }
     }
+}
+
+// category list ------------------------------------------------------------------------------
+
+.categories-and-latest div.column,
+.categories-and-top div.column {
+    flex: none;
+}
+
+.categories-and-latest div.column.categories,
+.categories-and-top div.column.categories {
+    margin-right: 0;
 }

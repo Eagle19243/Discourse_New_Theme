@@ -3,13 +3,37 @@
 // Variables  ---------------------------------------------------------------------------------
 $v-forum-background: url(#{$forum_background}) !default;
 
-// backgrounds --------------------------------------------------------------------------------
+// body background ----------------------------------------------------------------------------
+
+body {
+	position: relative;
+	background-attachment: scroll;
+	background: white;
+}
+
+#background,
+body:before {
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+body:before {
+	display: block;
+	content: "";
+	width: 100vw;
+	z-index: -2;
+	background: white;
+}
+
 #background {
 	background: $v-forum-background;
 	background-position: center center;
 	background-size: cover;
 	z-index: -1;
-	opacity: 1;
 	min-width: 100vw;
 	width: auto;
 	overflow: hidden;

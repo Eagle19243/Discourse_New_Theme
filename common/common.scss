@@ -47,3 +47,21 @@ body:before {
 	left: 50%;
 	transform: translate3d(-50%, -50%, 0);
 }
+
+// list controls ------------------------------------------------------------------------------
+ol.category-breadcrumb {
+    display: none;
+}
+
+.nav-pills > li > a {
+    border: 1px solid #007aff;
+    color: #007aff;
+    background: transparent;
+    border-radius: 50%;
+    transition: background 0.15s;
+}
+
+.nav-pills > li.active > a {
+    background: #007aff;
+    color: white;
+}

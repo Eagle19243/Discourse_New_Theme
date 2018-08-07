@@ -57,11 +57,12 @@ ol.category-breadcrumb {
     border: 1px solid #007aff;
     color: #007aff;
     background: transparent;
-    border-radius: 50%;
+    border-radius: 9999px;
     transition: background 0.15s;
 }
 
-.nav-pills > li.active > a {
+.nav-pills > li.active > a,
+.nav-pills > li > a:hover {
     background: #007aff;
     color: white;
 }

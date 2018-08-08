@@ -187,19 +187,22 @@ a.badge-wrapper.box {
 footer#footer {
     width: 100%;
 
-    .footer-column {
-        height: 200px;
-    }
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
 
-    .footer-column.info-column {
-        background: red;
-    }
+        .info-column {
+            background: red;
+        }
 
-    .footer-column.links-column {
-        background: green;
-    }
+        .links-column {
+            background: green;
+        }
 
-    .footer-column.social-column {
-        background: blue;
+        .social-column {
+            background: blue;
+        }
     }
 }

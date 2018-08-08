@@ -81,12 +81,12 @@ table.category-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        border: none;
 
         tr {
             width: 228px;
             height: 228px;
             background:  #f8f9fa;
-            border-radius: 6px;
             margin: 14px;
 
             td.topics {
@@ -96,7 +96,9 @@ table.category-list {
             td.category {
                 display: block;
                 text-align: center;
-                border: none !important;
+                border-radius: 6px;
+                border-style:solid;
+                border-width: 1px;
                 padding: 24px !important;
 
                 .category-description {
@@ -107,6 +109,13 @@ table.category-list {
                     display: flex;
                     flex-direction: column-reverse;
                     justify-content: center;
+
+                    .category-title-text {
+                        justify-content: center;
+                        font-size: 16px;
+                        font-weight: 300;
+                        color: black;
+                    }
                 }
 
                 a {

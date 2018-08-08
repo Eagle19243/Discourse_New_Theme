@@ -200,6 +200,7 @@ footer#footer {
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 15px;
 
         .footer-column {
             padding: 20px;
@@ -219,6 +220,20 @@ footer#footer {
             font-size: 14px;
             font-weight: 300;
             color: black;
+        }
+
+        .links-column {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            .half-width {
+                width: 50%;
+            }
+
+            a {
+                
+            }
         }
     }
 

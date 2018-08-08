@@ -47,6 +47,22 @@ body {
             background: #007aff;
             color: white;
         }
+
+        button#create-topic {
+            border: 1px solid #007aff;
+            color: #007aff;
+            background: transparent;
+            border-radius: 9999px;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+            transition: background 0.15s;
+
+            &:hover {
+                background: #007aff;
+                color: white;
+            }
+        }
     }
 }
 

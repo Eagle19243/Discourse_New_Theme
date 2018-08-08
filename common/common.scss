@@ -189,9 +189,12 @@ footer#footer {
 
     .footer-container {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
 
         .footer-column {
-            width: 33.33%
         }
 
         .info-column {
@@ -208,6 +211,8 @@ footer#footer {
 @media (max-width: 650px) {
     footer#footer {
         .footer-container {
+            display: block;
+            
             .footer-column {
                 width: 100%;
             }

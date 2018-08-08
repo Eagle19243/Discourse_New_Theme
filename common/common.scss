@@ -88,6 +88,7 @@ table.category-list {
             height: 228px;
             background:  #f8f9fa;
             margin: 14px;
+            border-radius: 6px;
 
             td.topics {
                 display: none;
@@ -109,17 +110,17 @@ table.category-list {
                     display: flex;
                     flex-direction: column-reverse;
                     justify-content: center;
-
-                    .category-title-text {
-                        justify-content: center;
-                        font-size: 16px;
-                        font-weight: 300;
-                        color: black;
-                    }
                 }
 
                 a {
                     text-decoration: none;
+                }
+
+                .category-title-text {
+                    justify-content: center;
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: black;
                 }
             }
         }

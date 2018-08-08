@@ -181,3 +181,25 @@ a.badge-wrapper.box {
     border-radius: 3px;
     overflow: hidden;
 }
+
+// footer -------------------------------------------------------------------------------------
+
+footer#footer {
+    width: 100%;
+
+    .footer-column {
+        height: 200px;
+    }
+
+    .footer-column.info-column {
+        background: red;
+    }
+
+    .footer-column.links-column {
+        background: green;
+    }
+
+    .footer-column.social-column {
+        background: blue;
+    }
+}

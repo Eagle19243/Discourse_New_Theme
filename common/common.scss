@@ -300,6 +300,8 @@ footer#footer {
         p {
             font-size: 10px;
             font-weight: 300;
+            padding-left: 26px;
+            padding-right: 26px;
         }
     }
 }
@@ -312,6 +314,13 @@ footer#footer {
             .footer-column {
                 width: 100%;
                 padding: 16px;
+            }
+        }
+
+        .copyright-container {
+            p {
+                padding-left: 16px;
+                padding-right: 16px;
             }
         }
     }

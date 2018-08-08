@@ -189,20 +189,28 @@ footer#footer {
 
     .footer-container {
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+
+        .footer-column {
+            width: 33.33%
+        }
 
         .info-column {
-            background: red;
         }
 
         .links-column {
-            background: green;
         }
 
         .social-column {
-            background: blue;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    footer#footer {
+        .footer-container {
+            .footer-column {
+                width: 100%;
+            }
         }
     }
 }

@@ -236,6 +236,32 @@ footer#footer {
                 text-decoration: none;
             }
         }
+
+        .join-column {
+            .join-us-title {
+                font-size: 20px;
+                font-weight: normal;
+                color: black;
+            }
+
+            .social-buttons a {
+                font-size: 1.8rem;
+                background: #C3CAD2;
+                width: 40px;
+                height: 40px;
+                line-height: 2.2em;
+                border-radius: 20px;
+                color: #fff;
+                margin: 0 10px 0 0;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center !important;
+                text-decoration: none !important;
+                letter-spacing: 0;
+                -webkit-transition: background-color .3s ease-in-out,border-color .3s ease-in-out,color .3s ease-in-out;
+                transition: background-color .3s ease-in-out,border-color .3s ease-in-out,color .3s ease-in-out;
+            }
+        }
     }
 
     .copyright-container {

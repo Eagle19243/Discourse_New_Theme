@@ -199,11 +199,9 @@ footer#footer {
         justify-content: space-around;
         align-items: center;
         margin-bottom: 15px;
-        margin-left: 20px;
-        margin-right: 20px;
 
         .footer-column {
-            padding: 20px;
+            padding: 26px;
             width: 33.33%;
         }
 
@@ -239,8 +237,6 @@ footer#footer {
 
     .copyright-container {
         width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 }
 
@@ -248,17 +244,11 @@ footer#footer {
     footer#footer {
         .footer-container {
             display: block;
-            margin-left: 5px;
-            margin-right: 5px;
 
             .footer-column {
                 width: 100%;
+                padding: 16px;
             }
-        }
-
-        .copyright-container {
-            margin-left: 5px;
-            margin-right: 5px;
         }
     }
 }

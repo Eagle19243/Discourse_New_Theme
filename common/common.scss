@@ -67,3 +67,52 @@ body {
 .categories-and-top div.column.categories {
     margin-right: 0;
 }
+
+table.category-list {
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    thead {
+        display: none;
+    }
+
+    tbody {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        tr {
+            width: 228px;
+            height: 228px;
+            background:  #f8f9fa;
+            border-radius: 6px;
+            margin: 14px;
+
+            td.topics {
+                display: none;
+            }
+
+            td.category {
+                display: block;
+                text-align: center;
+                border: none !important;
+                padding: 24px !important;
+
+                .category-description {
+                    display: none;
+                }
+
+                &>div>h3>a {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: center;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

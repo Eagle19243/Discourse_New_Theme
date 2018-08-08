@@ -119,6 +119,10 @@ table.category-list {
                     font-size: 16px;
                     font-weight: 300;
                     color: black;
+
+                    span.category-name {
+                        text-align: center;
+                    }
                 }
             }
         }

@@ -188,6 +188,8 @@ a.badge-wrapper.box {
 footer#footer {
     width: 100%;
     background: white;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
 
@@ -227,6 +229,9 @@ footer#footer {
 
 @media (max-width: 650px) {
     footer#footer {
+        padding-left: 5px;
+        padding-right: 5px;
+
         .footer-container {
             display: block;
 

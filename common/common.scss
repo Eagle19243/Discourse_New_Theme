@@ -92,6 +92,7 @@ table.category-list {
 
             td.category {
                 display: block;
+                text-align: center;
                 border-radius: 6px;
                 border-style: solid;
                 border-width: 1px;
@@ -99,6 +100,18 @@ table.category-list {
                 background:  #f8f9fa;
                 width: 180px;
                 height: 180px;
+
+                & > div {
+                    height: 100%;
+                }
+
+                & > div > h3 {
+                    height: 100%;
+                }
+
+                & > div > h3 > a {
+                    height: 100%;
+                }
 
                 .category-description {
                     display: none;
@@ -119,10 +132,20 @@ table.category-list {
                     font-size: 16px;
                     font-weight: 300;
                     color: black;
+                    white-space: nowrap;
+                    overflow: hidden;
 
                     span.category-name {
                         text-align: center;
                     }
+                }
+
+                .category-logo {
+                    margin: 0 0 20px 0;
+                    width: 120px;
+                    height: 120px;
+                    float: none;
+                    object-fit: contain;
                 }
             }
         }

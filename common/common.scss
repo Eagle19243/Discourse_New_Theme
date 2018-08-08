@@ -157,3 +157,11 @@ table.category-list {
         }
     }
 }
+
+// category badge box -------------------------------------------------------------------------
+
+a.badge-wrapper.box {
+    padding: 5px 10px;
+    border-radius: 3px;
+    overflow: hidden;
+}
